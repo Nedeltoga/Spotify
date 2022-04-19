@@ -1,0 +1,133 @@
+body {
+    font-family: Sans-serif, Arial;
+  }
+  
+  nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 30vw;
+  }
+  section.options-menu {
+    display: flex;
+  }
+  /*images*/
+  
+  section.image-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  img.green-logo {
+    height: 10vh;
+    margin-left: 30px;
+  }
+  
+  img.concert {
+    width: 100%;
+  }
+  
+  /* Container holding the image and the text */
+  .container-concert {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered h1 {
+    font-size: 3em;
+  }
+  .centered h2 {
+    font-size: 1.5em;
+    opacity: 0.6;
+  }
+  
+  /*section white*/
+  
+  section.white {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .speaker {
+    width: 25%;
+  }
+  
+  .wave {
+    width: 25%;
+  }
+  
+  .device {
+    width: 25%;
+  }
+  section.white img {
+    width: 40%;
+  }
+  
+  section.white > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2.what {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #1ab26b;
+  }
+  
+  section.white h3 {
+    color: #15b07c;
+  }
+  
+  section.white p {
+    text-align: center;
+  }
+  /*footer*/
+  
+  footer {
+    background-color: #1ab26b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  section.text-green {
+    height: 80vh;
+  }
+  
+  .text-green {
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .text-green h2 {
+    text-decoration: underline;
+  }
+  
+  img.white-logo {
+    height: 5em;
+  }
+  
+  img.screenshot {
+    height: 30em;
+  }
+  
